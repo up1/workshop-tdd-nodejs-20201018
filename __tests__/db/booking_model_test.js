@@ -17,7 +17,6 @@ test.each`
   party | name         | email
   ${1}  | ${"user 01"} | ${"email@1.com"}
   ${2}  | ${"user 02"} | ${"email@2.com"}
-  ${3}  | ${"user 03"} | ${"email@3.com"}
 `(
   "Data-driven testing with $party and name=$name",
   async ({ party, name, email }) => {
