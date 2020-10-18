@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "author": "up1",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^26.0.14",
-    "jest": "^26.5.3"
+    "jest": "^26.5.3",
+    "nock": "^13.0.4",
+    "supertest": "^5.0.0"
   },
   "dependencies": {
     "axios": "^0.20.0",
